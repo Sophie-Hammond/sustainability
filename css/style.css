@@ -1,6 +1,46 @@
+
+
+
+div1{
+  color: rgb(49, 219, 38);
+  vertical-align: center;
+  font-family: Georgia;
+}
 h1 {
- color: red;
- vertical-align: "center";
+
+}
+
+
+div2 {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+p1{
+  color: black;
+}
+p2{
+  color: black;
+}
+
+
+
+
+h2{
+  background-color: white;
+  color: rgb(49, 219, 38);
+  font-family:Georgia;
+}
+
+
+
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
 }
 
 
@@ -8,6 +48,9 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   padding: 0 500px;
+
+  border-style:solid;
+
 }
 
 /* Create two equal columns that sits next to each other */
@@ -19,4 +62,5 @@ h1 {
 .column img {
   margin-top: 250px;
   vertical-align: center;
+  padding: 0 4px;
 }
