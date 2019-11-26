@@ -1,20 +1,20 @@
 body {
-        background: white;
+        background: #99FF66;
         font-family: Georgia;
   }
 
   div.one {
     min-height: autovh;
     width:  autovw;
-    background: rgb(49, 219, 38);
-    border: solid blue;
+    background: #99FF66;
+    border-bottom:  dotted white;
     text-align: center;
   }
 
   a {
     color: white;
     text-decoration: underline;
-    font-size:25px;
+    font-size:30px;
   }
 
   a:hover{
@@ -25,12 +25,13 @@ body {
 
   h1{
     text-align: center:
-    color: white;
+    letter-spacing: 3px;
+    font-size: 47px;
   }
 
   div.two{
     text-align: center;
-    color: rgb(49, 219, 38);
+    color: white;
   }
 
   h3{
@@ -39,8 +40,8 @@ body {
   }
 
   input[type=text]{
-    background-color: white;
-    Border: solid 2px blue;
+    background-color: #99FF99;
+    Border: solid 2px white;
     border-radius: 6px;
     width: 10%;
     padding: 5px 80px;
@@ -49,8 +50,8 @@ body {
 
 
   input[type=submit]{
-    background-color: white;
-    Border: solid 2px blue ;
+    background-color:#99FF99;
+    Border: solid 2px white ;
     border-radius: 6px;
     width: 10%;
     padding: 1px 10px;
@@ -64,6 +65,5 @@ body {
   -moz-border-radius: 12px;
   -webkit-border-radius: 12px;
   border-radius: 12px;
-align-items: right;
   filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
   }
