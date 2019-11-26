@@ -1,8 +1,11 @@
-body{
+div.indexone{
   background-image: url("../ocean.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom: solid gray;
 }
+
+
 
 div.indexzero{
   min-height: 10px;
@@ -10,6 +13,8 @@ div.indexzero{
   background: white;
   text-align: right;
 }
+
+
 
 .navBox{
   position: fixed;
@@ -121,8 +126,14 @@ div.indextwo{
   padding-left: 80px;
 }
 
+p.paragraph-desc{
+  color: black;
+  font-size: 24px;
+}
+
 p{
   color: black;
+  font-size: 30px;
 }
 p.paragraph-desc {
   margin-top: 100px;
@@ -133,7 +144,6 @@ p.paragraph-desc {
 
 
 h2{
-
   color: black;
   font-family:'Noto Sans KR', sans-serif;
 }
@@ -151,9 +161,12 @@ h2{
   width:80%;
     transition: width 2s;
 }
+
 .img-house:hover{
   width: 100%;
   transition: width 2s;
+
+
 
 
 /* .row {
