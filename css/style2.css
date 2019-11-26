@@ -1,19 +1,58 @@
 body {
-        background: #323645;
-        font-family: serif;
+        background: white;
+        font-family: Georgia;
+  }
+
+  div.one {
+    min-height: autovh;
+    width:  autovw;
+    background: rgb(49, 219, 38);
+    border: solid blue;
+    text-align: center;
   }
 
   a {
     color: white;
     text-decoration: underline;
-
     font-size:25px;
-    text-align: center;
-
   }
 
   a:hover{
     text-decoration: line-through;
     text-transform: uppercase;
     text-align: center;
+  }
+
+  h1{
+    text-align: center:
+    color: white;
+  }
+
+  div.two{
+    text-align: center;
+    color: rgb(49, 219, 38);
+  }
+
+  p{
+    text-align: center;
+    color: Orange;
+  }
+
+  input[type=text]{
+    background-color: white;
+    Border: solid 2px orange;
+    border-radius: 6px;
+    width: 10%;
+    padding: 5px 80px;
+    margin-top: 20px;
+  }
+
+
+  input[type=submit]{
+    background-color: white;
+    Border: solid 2px orange;
+    border-radius: 6px;
+    width: 10%;
+    padding: 1px 10px;
+    margin-top: 20px;
   }
