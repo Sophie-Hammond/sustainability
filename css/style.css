@@ -5,9 +5,9 @@ body{
 }
 
 div.indexzero{
-  min-height: autovh;
+  min-height: 10px;
   width:  autovw;
-  background: white;;
+  background: white;
   text-align: right;
 }
 
@@ -15,6 +15,7 @@ div.indexzero{
   position: fixed;
   top: 0;
   width: 100%;
+  border-bottom: solid gray;
 }
 
 li {
@@ -47,7 +48,7 @@ li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0px 16px;
   text-decoration: none;
 }
 
@@ -132,9 +133,9 @@ p.paragraph-desc {
 
 
 h2{
-  background-color: white;
-  color: rgb(49, 219, 38);
-  font-family:Georgia;
+
+  color: black;
+  font-family:'Noto Sans KR', sans-serif;
 }
 
 .img-bowl{
