@@ -33,26 +33,26 @@ body {
     color: rgb(49, 219, 38);
   }
 
-  p{
+  h3{
     text-align: center;
-    color: Orange;
+    color: Blue;
   }
 
   input[type=text]{
     background-color: white;
-    Border: solid 2px orange;
+    Border: solid 2px blue;
     border-radius: 6px;
     width: 10%;
     padding: 5px 80px;
-    margin-top: 20px;
+    margin-top: 2px;
   }
 
 
   input[type=submit]{
     background-color: white;
-    Border: solid 2px orange;
+    Border: solid 2px blue ;
     border-radius: 6px;
     width: 10%;
     padding: 1px 10px;
-    margin-top: 20px;
+    margin-top: 2px;
   }
