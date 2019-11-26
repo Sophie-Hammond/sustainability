@@ -1,18 +1,144 @@
 body {
-        background: #99FF66;
+        background: white;
         font-family: Georgia;
   }
+
+  div.indexzero{
+    min-height: autovh;
+    width:  autovw;
+    background: white;;
+    text-align: right;
+  }
+
+  .navBox{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  li {
+    display: inline;
+  }
+
+  li {
+    float: left;
+  }
+
+  a {
+    display: block;
+    padding: 8px;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  li a:hover {
+    background-color: white;
+      color: #99FF66
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook{
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter{
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin{
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-youtube{
+    background: #bb0000;
+    color:white;
+  }
+
+  .fa-instagram{
+    background: #125688;
+    color: white;
+  }
+
+
+  a {
+    color:#99FF99;
+    text-decoration: underline;
+    font-size:30px;
+  }
+
+  a:hover{
+
+    text-transform: uppercase;
+    text-transform: full-width;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   div.one {
     min-height: autovh;
     width:  autovw;
-    background: #99FF66;
-    border-bottom:  dotted white;
+    background: white;
+    border-bottom:  dotted #99FF66;
     text-align: center;
   }
 
   a {
-    color: white;
+    color:#99FF99;
     text-decoration: underline;
     font-size:30px;
   }
@@ -20,6 +146,7 @@ body {
   a:hover{
     text-decoration: line-through;
     text-transform: uppercase;
+    text-transform: full-width;
     text-align: center;
   }
 
@@ -31,17 +158,17 @@ body {
 
   div.two{
     text-align: center;
-    color: white;
+    color: #99FF99;
   }
 
   h3{
     text-align: center;
-    color: Blue;
+    color: black;
   }
 
   input[type=text]{
     background-color: #99FF99;
-    Border: solid 2px white;
+    Border: solid 2px ;
     border-radius: 6px;
     width: 10%;
     padding: 5px 80px;
@@ -51,11 +178,12 @@ body {
 
   input[type=submit]{
     background-color:#99FF99;
-    Border: solid 2px white ;
+    Border: solid 2px white;
     border-radius: 6px;
     width: 10%;
     padding: 1px 10px;
     margin-top: 2px;
+
   }
 
 
