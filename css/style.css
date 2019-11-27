@@ -12,7 +12,7 @@ div{
 }
 
 
-div.indexone{
+body{
   background-image: url("../ocean.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,11 +20,22 @@ div.indexone{
   border-bottom: solid gray;
 }
 
+div.container{
+  background-image: url("../ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
 div.indextwo{
-  padding-top: 60px;
+  min-height: 1vh;
+  padding-top: 10px;
   padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background: #D3D3D3;
+
 }
 
 .navBox{
@@ -122,6 +133,11 @@ p.paragraph-desc{
 p{
   color: black;
   font-size: 30px;
+}
+
+p.contactdetails{
+  color: #2F4F4F
+  fontsize:24px;
 }
 
 h2{
