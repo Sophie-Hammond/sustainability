@@ -10,6 +10,12 @@ body {
     text-align: right;
   }
 
+  div.container{
+    borer-top:dotted gray;
+    border-bottom: dotted gray;
+    boared padding-bottom: 10px;
+  }
+
   .navBox{
     position: fixed;
     top: 0;
@@ -173,3 +179,7 @@ body {
   border-radius: 12px;
   filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
   }
+
+img.t-nlightbulb{
+align: center;
+}
