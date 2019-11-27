@@ -1,14 +1,3 @@
-div.indexone{
-  background-image: url("../ocean.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  border-bottom: solid gray;
-
-}
-
-
-
 div.indexzero{
   min-height: 10px;
   width:  autovw;
@@ -16,6 +5,27 @@ div.indexzero{
   text-align: right;
 }
 
+div{
+  color:#99FF66;
+  vertical-align: center;
+  font-family: Georgia;
+}
+
+
+div.indexone{
+  background-image: url("../ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: solid gray;
+}
+
+div.indextwo{
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
 
 .navBox{
   position: fixed;
@@ -26,17 +36,9 @@ div.indexzero{
 
 li {
   display: inline;
-}
-
-li {
   float: left;
 }
 
-a {
-  display: block;
-  padding: 8px;
-  background-color: white;
-}
 
 ul {
   list-style-type: none;
@@ -46,9 +48,6 @@ ul {
   background-color: white;
 }
 
-li {
-  float: left;
-}
 
 li a {
   display: block;
@@ -58,11 +57,22 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: white;
   color: #99FF66
 }
+
+a {
+  text-decoration: underline;
+  font-size:30px;
+}
+
+a:hover {
+  text-transform: uppercase;
+  text-transform: full-width;
+  text-align: center;
+}
+
 
 .fa {
   padding: 20px;
@@ -100,49 +110,19 @@ li a:hover {
   color: white;
 }
 
-
-a {
-  color:#99FF99;
-  text-decoration: underline;
-  font-size:30px;
-}
-
-a:hover{
-
-  text-transform: uppercase;
-  text-transform: full-width;
-  text-align: center;
-}
-
-
-div{
-  color: rgb(49, 219, 38);
-  vertical-align: center;
-  font-family: Georgia;
-}
-div.indextwo{
-  padding-top: 60px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-}
-
 p.paragraph-desc{
   color: black;
   font-size: 24px;
-}
-
-p{
-  color: black;
-  font-size: 30px;
-}
-p.paragraph-desc {
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
 }
 
+p{
+  color: black;
+  font-size: 30px;
+}
 
 h2{
   color: black;
@@ -166,27 +146,3 @@ h2{
 .img-house:hover{
   width: 100%;
   transition: width 2s;
-
-
-
-
-/* .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 500px;
-
-  border-style:solid;
-
-}
-
-/* Create two equal columns that sits next to each other */
-/*.column {
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 250px;
-  vertical-align: center;
-  padding: 0 4px;
-} */
