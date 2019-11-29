@@ -184,16 +184,17 @@ body {
 
 
   iframe {
+    margin-left: 90px;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 
-  margin-left: 90px;
-  margin-right: 70px;
-  margin-top: 20px;
-  margin-bottom: 30px;
   -moz-border-radius: 12px;
   -webkit-border-radius: 12px;
   border-radius: 12px;
   filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
   }
+
 
 .img-thermostat{
   display: block;
@@ -218,6 +219,12 @@ body {
    width: auto;
   }
 
+.img-world{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: auto;
+}
   h6{
     color: gray;
     fontsize:18px;
