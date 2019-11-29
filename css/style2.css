@@ -6,14 +6,17 @@ body {
   div.indexzero{
     min-height: autovh;
     width:  autovw;
-    background: white;;
+    background: white;
     text-align: right;
   }
 
   div.container{
     borer-top:dotted gray;
     border-bottom: dotted gray;
-    boared padding-bottom: 10px;
+  }
+
+  div.three{
+border: solid grey;
   }
 
   .navBox{
@@ -171,6 +174,7 @@ body {
   }
 
 
+
   iframe {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -180,6 +184,25 @@ body {
   filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
   }
 
-img.t-nlightbulb{
-align: center;
+.img-thermostat{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: auto;
+
+
 }
+
+.img-lightbulb{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: auto;
+}
+
+  .img-switch{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: auto;
+  }
