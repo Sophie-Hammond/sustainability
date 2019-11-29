@@ -16,8 +16,16 @@ body {
   }
 
   div.three{
-border: solid grey;
+    min-height: 1vh;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background: #D3D3D3;
+
   }
+
+
 
   .navBox{
     position: fixed;
@@ -176,6 +184,9 @@ border: solid grey;
 
 
   iframe {
+
+  margin-left: 90px;
+  margin-right: 70px;
   margin-top: 20px;
   margin-bottom: 30px;
   -moz-border-radius: 12px;
