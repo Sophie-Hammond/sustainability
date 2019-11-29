@@ -217,3 +217,8 @@ body {
    margin-right: auto;
    width: auto;
   }
+
+  h6{
+    color: gray;
+    fontsize:18px;
+  }

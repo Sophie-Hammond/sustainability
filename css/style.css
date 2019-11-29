@@ -38,6 +38,7 @@ div.indextwo{
   padding-left: 20px;
   background: #D3D3D3;
 
+
 }
 
 .navBox{
@@ -137,9 +138,9 @@ p{
   font-size: 30px;
 }
 
-p.contactdetails{
-  color: #2F4F4F
-  fontsize:24px;
+h6{
+  color: gray;
+  fontsize:18px;
 }
 
 h2{
