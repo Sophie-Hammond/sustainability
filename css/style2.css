@@ -183,18 +183,17 @@ body {
 
   }
 
-
-
+  
   iframe {
     margin-left: 90px;
     margin-right: 70px;
     margin-top: 20px;
     margin-bottom: 30px;
 
-  -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
   }
 
 
@@ -203,8 +202,6 @@ body {
    margin-left: auto;
    margin-right: auto;
    height: auto;
-
-
 }
 
 .img-lightbulb{
