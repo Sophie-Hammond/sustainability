@@ -64,12 +64,13 @@ body {
     color: black;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+
   }
 
 
   li a:hover {
     background-color: white;
+    text-decoration: underline;
       color: #99FF66
   }
 
@@ -119,7 +120,6 @@ body {
   a:hover{
     text-transform: uppercase;
     text-transform: full-width;
-    text-transform: underline;
     text-align: center;
   }
 
