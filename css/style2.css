@@ -170,6 +170,11 @@ body {
     margin-top: 2px;
   }
 
+div.meat{
+  font-size= 10%
+}
+
+
 
   input[type=submit]{
     background-color:#99FF99;
@@ -227,5 +232,5 @@ body {
 }
   h6{
     color: gray;
-    fontsize:18px;
+    font-size:10px;
   }
