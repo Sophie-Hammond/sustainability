@@ -227,7 +227,23 @@ body {
  margin-right: auto;
  width: auto;
 }
-  h6{
-    color: gray;
-    font-size:10px;
-  }
+.img-cattle{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: auto;
+}
+
+.img-waste{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: auto;
+}
+
+.img-local{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: auto;
+}
