@@ -46,6 +46,7 @@ div.indextwo{
   top: 0;
   width: 100%;
   border-bottom: solid gray;
+  z-index: 99999
 }
 
 li {
